@@ -8,3 +8,4 @@ Each file includes my first attempt, the improved solution, its time complexity,
 | # | Problem | Difficulty | Key idea | Time |
 |---|---|---|---|---|
 | 217 | [Contains Duplicate](01_contains_duplicate.py) | Easy | Set for instant lookup | O(n) |
+| 242 | [Valid Anagram](02_valid_anagram.py) | Easy | Count letters with a dict | O(n) |
