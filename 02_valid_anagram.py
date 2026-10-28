@@ -1,10 +1,12 @@
 # 242. Valid Anagram
 # https://leetcode.com/problems/valid-anagram/
 # Time complexity: O(n)
+# Space complexity: O(n)
 # LeetCode runtime: 10 ms
 
 # First attempt
 # Time complexity: O(n log n), 17 ms
+# Space complexity: O(n)
 """
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
@@ -14,7 +16,8 @@ class Solution:
 
 #-------------------------------------------------------------------------------------------------------------------------------
 # Second attempt
-
+# Time complexity: O(n)
+# Space complexity: O(n)
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):

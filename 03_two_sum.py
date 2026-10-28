@@ -1,11 +1,12 @@
 # 1. Two Sum
 # https://leetcode.com/problems/two-sum/
 # Time complexity: O(n)
+# Space complexity: O(n)
 # LeetCode runtime: 0 ms
 
 # First attempt
 # Time complexity: O(n²), 1779 ms
-
+# Space complexity: O(1), no matter how large the nums grow, output always 2 indices
 """
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
@@ -18,7 +19,8 @@ class Solution:
 
 #-------------------------------------------------------------------------------------------------------------------------------
 # Second attempt
-
+# Time complexity: O(n)
+# Space complexity: O(n)
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         seen = {}

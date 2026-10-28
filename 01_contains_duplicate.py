@@ -1,10 +1,12 @@
 # 217. Contains Duplicate
 # https://leetcode.com/problems/contains-duplicate/
 # Time complexity: O(n)
+# Space complexity: O(n)
 # LeetCode runtime: 17 ms
 
 # First attempt
 # Time complexity: O(n²)
+# Space complexity: O(n)
 """
 class Solution:
     def containsDuplicate(self, nums: list[int]) -> bool:
@@ -22,7 +24,8 @@ class Solution:
 
 #-------------------------------------------------------------------------------------------------------------------------------
 # Second attempt
-
+# Time complexity: O(n)
+# Space complexity: O(n)
 class Solution:
     def containsDuplicate(self, nums: list[int]) -> bool:
         seen = set()
