@@ -43,6 +43,14 @@ class Solution:
             left += 1
             right -= 1
         return True
+
+# What I learned:
+# two pointers: start one at the beginning and one at the end of the string, then move them toward the middle step by step
+# the inner while loops need left < right because without the guard, if a string has no letters or numbers (like "?/-"),
+#   left keeps increasing past the last index and crashes with an IndexError
+# my O(1) version was slower on LeetCode because my while loop runs in Python, while .lower() and [::-1] run in fast built-in code,
+#   but the space improvement (O(n) → O(1)) matters more in interviews
+
 """
 The tool: .isalnum()
 
