@@ -16,7 +16,7 @@ class Solution:
                 stack.append(char)
             elif char in mapping.values(): #check the closing brackets
                 if not stack: #check if the stack is empty, if stack: True means the stack got items, if not stack: True means the stack is empty
-                    return False #empty stack and no opening brackets in the stack to check with closing brackets
+                    return False #empty stack and no opening brackets in the stack to check with closing brackets #and the first cannot be closing brackets so straight return False 
                 else:  # if stack is not empty and got opening brackets
                     top_element = stack.pop() # pop the top opening brackets and return to variable top_element, for one closing brackets, we pop one opening brackets from stack and compare
                     """

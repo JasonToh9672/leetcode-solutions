@@ -20,7 +20,7 @@ class Solution:
 # Space complexity: O(n)
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        if len(s) != len(t):
+        if len(s) != len(t): # if their length not match, straight return False and no need continue next action
             return False
         s_counts = {}
         t_counts = {}
@@ -28,7 +28,7 @@ class Solution:
             s_counts[ch] = s_counts.get(ch, 0) + 1
         for ch in t:
             t_counts[ch] = t_counts.get(ch, 0) + 1
-        return s_counts == t_counts
+        return s_counts == t_counts # == compare both dictionaries key and values match
 
 
 # What I learned:

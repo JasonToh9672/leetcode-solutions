@@ -13,7 +13,8 @@ class Solution:
         for price in prices:
             if price < min_price: 
                 min_price = price # update the min_price to new price value
-            elif price - min_price > max_profit: # profit = price - min_price, compare to max_profit, if profit > current max_profit, replace it with this profit
+            # if the price greater or equal to min_price, we compare it the profit against the max_profit
+            elif price - min_price > max_profit: # profit = price - min_price, compare to max_profit, if profit > current max_profit, replace it with this profit 
                 max_profit = price - min_price  # update the max_profit to new profit if the new profit is larger
         return max_profit
 

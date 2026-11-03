@@ -39,7 +39,7 @@ class Solution:
             # Compare characters directly (case-insensitive)
             if s[left].lower() != s[right].lower():
                 return False # if any left and right not match, straight return False as they are not Palindrome, no need continue
-
+                             # if we return True here when they are match, it did not continue for the remaining character when there is just one match
             left += 1
             right -= 1
         return True

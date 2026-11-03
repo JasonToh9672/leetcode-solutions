@@ -26,9 +26,9 @@ class Solution:
         seen = {}
         for i, num in enumerate(nums):
             partner = target - num
-            if partner in seen: # check first before insert
+            if partner in seen: # check does the partner num exists in previous loop
                 return [seen[partner], i]
-            seen[num] = i
+            seen[num] = i # if not exist, insert the num of this loop
 
 # What I learned:
 # the partner trick: partner = target - num
