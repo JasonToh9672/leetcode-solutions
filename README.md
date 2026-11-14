@@ -13,3 +13,4 @@ Each file includes my first attempt, the improved solution, its time and space c
 | 125 | [Valid Palindrome](04_valid_palindrome.py) | Easy | Two pointers moving inward from both ends | O(n) | O(1) |
 | 121 | [Best Time to Buy and Sell Stock](05_best_time_to_buy_and_sell_stock.py) | Easy | Track the lowest price so far (running minimum) | O(n) | O(1) |
 | 20 | [Valid Parentheses](06_valid_parentheses.py) | Easy | Stack: push openings, pop and match on closings | O(n) | O(n) |
+| 704 | [Binary Search](07_binary_search.py) | Easy | Check the middle, throw away the half that can't contain the target | O(log n) | O(1) |
