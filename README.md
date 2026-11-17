@@ -16,3 +16,4 @@ Each file includes my first attempt, the improved solution, its time and space c
 | 704 | [Binary Search](07_binary_search.py) | Easy | Check the middle, throw away the half that can't contain the target | O(log n) | O(1) |
 | 268 | [Missing Number](08_missing_number.py) | Easy | Sum of 0..n minus the sum of the list = the missing number | O(n) | O(1) |
 | 206 | [Reverse Linked List](09_reverse_linked_list.py) | Easy | Walk once with previous/current/next_node; bookmark the next node, then turn each arrow around | O(n) | O(1) |
+| 21 | [Merge Two Sorted Lists](10_merge_two_sorted_lists.py) | Easy | First attempt: collect both lists' values, sort, rebuild a new linked list | O(n log n) | O(n) |
