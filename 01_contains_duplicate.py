@@ -40,6 +40,8 @@ class Solution:
 A set is like a dict that only has keys, with no values, it removes duplicates automatically
 
 seen = set()        # empty set (note: {} would make an empty dict, not a set)
+seen2 = {2}          # set with value
+seen3 = {}           # empty dictionary
 seen.add(5)         # sets use .add(), not .append()
 seen.add(3)
 seen.add(5)         # adding 5 again does nothing, since sets never hold duplicates

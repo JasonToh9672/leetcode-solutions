@@ -17,3 +17,4 @@ Each file includes my first attempt, the improved solution, its time and space c
 | 268 | [Missing Number](08_missing_number.py) | Easy | Sum of 0..n minus the sum of the list = the missing number | O(n) | O(1) |
 | 206 | [Reverse Linked List](09_reverse_linked_list.py) | Easy | Walk once with previous/current/next_node; bookmark the next node, then turn each arrow around | O(n) | O(1) |
 | 21 | [Merge Two Sorted Lists](10_merge_two_sorted_lists.py) | Easy | Dummy node + tail: compare the two fronts, attach the smaller, then attach the leftover | O(n + m) | O(1) |
+| 141 | [Linked List Cycle](11_linked_list_cycle.py) | Easy | Fast and slow pointers: if there's a cycle, the fast one catches the slow one | O(n) | O(1) |
