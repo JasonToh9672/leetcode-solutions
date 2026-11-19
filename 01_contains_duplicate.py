@@ -49,6 +49,8 @@ seen.add(5)         # adding 5 again does nothing, since sets never hold duplica
 print(seen)         # {3, 5}
 print(5 in seen)    # True, and it's instant, even with millions of items
 print(9 in seen)    # False
+
+seen.update([1, 2, 5]) # .add() only add 1 value, but .update() add multiple values, it unpack the list and add the values into set
 """
 
 # What I learned:

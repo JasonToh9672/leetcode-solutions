@@ -19,3 +19,4 @@ Each file includes my first attempt, the improved solution, its time and space c
 | 21 | [Merge Two Sorted Lists](10_merge_two_sorted_lists.py) | Easy | Dummy node + tail: compare the two fronts, attach the smaller, then attach the leftover | O(n + m) | O(1) |
 | 141 | [Linked List Cycle](11_linked_list_cycle.py) | Easy | Fast and slow pointers: if there's a cycle, the fast one catches the slow one | O(n) | O(1) |
 | 136 | [Single Number](12_single_number.py) | Easy | XOR every number: pairs cancel out (x ^ x = 0), leaving the single one | O(n) | O(1) |
+| 202 | [Happy Number](13_happy_number.py) | Easy | Keep replacing n with the sum of its squared digits; a set spots a loop (same idea as 141) | O(log n) | O(log n) |
